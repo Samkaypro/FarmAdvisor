@@ -14,7 +14,7 @@ export default function FarmAssistantPage() {
       <div className="flex flex-col gap-8">
         <div className="flex flex-col md:flex-row justify-between md:items-center gap-4">
           <div className="space-y-2">
-            <h1 className="text-3xl font-bold tracking-tight">Farm Assistant</h1>
+            <h1 className="text-3xl font-bold tracking-tight">FarmAdvisor AI</h1>
             <p className="text-muted-foreground">
               Get instant answers to your farming questions and personalized advice for your crops.
             </p>
@@ -38,7 +38,7 @@ export default function FarmAssistantPage() {
         <div className="grid gap-6 md:grid-cols-3">
           <div className="md:col-span-1 space-y-4">
             <div className="p-6 bg-muted rounded-lg">
-              <h3 className="text-lg font-medium mb-2">How to use the Assistant</h3>
+              <h3 className="text-lg font-medium mb-2">How to use FarmAdvisor AI</h3>
               <ul className="space-y-2 text-sm">
                 <li className="flex items-start gap-2">
                   <span className="text-green-600 font-bold">•</span>

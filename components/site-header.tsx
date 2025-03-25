@@ -17,7 +17,7 @@ export function SiteHeader() {
     { href: "/", label: "Home" },
     { href: "/crop-recommendation", label: "Crop Recommendations" },
     { href: "/pest-management", label: "Pest Management" },
-    { href: "/weather-soil", label: "Weather & Soil" },
+    { href: "/weather", label: "Weather" },
     { href: "/farm-assistant", label: "Farm Assistant" },
     // { href: "/dashboard", label: "Dashboard" },
   ]
@@ -49,7 +49,7 @@ export function SiteHeader() {
 
         <div className="flex items-center gap-2">
           <ThemeToggle />
-          <Button variant="outline" size="sm" className="hidden md:flex">
+          {/* <Button variant="outline" size="sm" className="hidden md:flex">
             Sign In
           </Button>
           <Button size="sm" className="hidden md:flex bg-green-700 hover:bg-green-800">
@@ -57,7 +57,7 @@ export function SiteHeader() {
           </Button>
           <Button variant="ghost" size="icon" className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
             {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-          </Button>
+          </Button> */}
         </div>
       </div>
 
