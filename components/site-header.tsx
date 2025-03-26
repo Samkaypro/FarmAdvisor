@@ -54,10 +54,10 @@ export function SiteHeader() {
           </Button>
           <Button size="sm" className="hidden md:flex bg-green-700 hover:bg-green-800">
             Register
-          </Button>
+          </Button> */}
           <Button variant="ghost" size="icon" className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
             {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-          </Button> */}
+          </Button>
         </div>
       </div>
 
@@ -78,14 +78,12 @@ export function SiteHeader() {
                 {route.label}
               </Link>
             ))}
-            {/* <div className="flex flex-col gap-2 mt-2">
+            <div className="flex flex-col gap-2 mt-2">
               <Button variant="outline" size="sm">
-                Sign In
+              FarmAdvisor
               </Button>
-              <Button size="sm" className="bg-green-700 hover:bg-green-800">
-                Register
-              </Button>
-            </div> */}
+             
+            </div>
           </div>
         </div>
       )}

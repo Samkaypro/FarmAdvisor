@@ -12,9 +12,8 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Nigerian Farmers Advisory System",
+  title: "    FarmAdvisor AI",
   description: "Get personalized crop recommendations and pest management advice based on your location and conditions",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({

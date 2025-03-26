@@ -9,22 +9,25 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section className="relative w-full py-12 md:py-24 lg:py-32 xl:py-48">
-        <div className="absolute inset-0 bg-black/60 z-10"></div>
-        <div
-          className="absolute inset-0 bg-cover bg-center z-0"
-          style={{ backgroundImage: "url('/placeholder.svg?height=1080&width=1920')" }}
-        ></div>
+        <div className="absolute inset-0 bg-black/600 z-10"></div>
+        <video
+          className="absolute inset-0 w-full h-full object-cover z-0"
+          src="/img/11.mov"
+          autoPlay
+          loop
+          muted
+        ></video>
         <div className="container relative z-20 mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center space-y-4 text-center text-white">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
-                Nigerian Farmers Advisory System
+              FarmAdvisor AI
               </h1>
               <p className="mx-auto max-w-[700px] text-lg md:text-xl">
                 Get personalized crop recommendations and pest management advice based on your location and conditions
               </p>
             </div>
-            <div className="w-full max-w-md space-y-2">
+            {/* <div className="w-full max-w-md space-y-2">
               <div className="flex w-full max-w-md items-center space-x-2">
                 <Input
                   type="text"
@@ -36,7 +39,7 @@ export default function Home() {
                   Search
                 </Button>
               </div>
-            </div>
+            </div> */}
             <Link href="/crop-recommendation">
               <Button size="lg" className="mt-4 bg-green-700 hover:bg-green-800">
                 Get Crop & Pest Advice
@@ -53,7 +56,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                Why Use Our Advisory System?
+                Why Use FarmAdvisor AI?
               </h2>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
                 Our platform provides tailored advice to help you maximize your farm's productivity
@@ -65,7 +68,7 @@ export default function Home() {
               <div className="rounded-full bg-green-100 p-3 dark:bg-green-800">
                 <Sprout className="h-6 w-6 text-green-700 dark:text-green-100" />
               </div>
-              <h3 className="text-xl font-bold">AI-Powered Recommendations</h3>
+              <h3 className="text-xl font-bold">AI Recommendations</h3>
               <p className="text-center text-muted-foreground">
                 Get personalized crop recommendations based on your specific soil type and local conditions
               </p>
@@ -116,7 +119,7 @@ export default function Home() {
             </div>
             <div className="flex justify-center">
               <img
-                src="/placeholder.svg?height=400&width=600"
+                src="/img/111.jpg"
                 width={600}
                 height={400}
                 alt="Nigerian farmer using a tablet in the field"
